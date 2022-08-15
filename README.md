@@ -10,7 +10,8 @@
 * [委托与事件](#委托与事件)
 
 <h2 id="物品属性">物品属性</h2>
-~~~ C#
+
+~~~C#
 public virtual void 展示物品前(箱子属性 val)
 {
 }
@@ -42,6 +43,7 @@ protected Transform 物品生成(物品属性 物品, Vector3 坐标 = default(V
 }
 ~~~
 <h2 id="箱子属性">箱子属性</h2>
+
 ~~~ C#
 public void 加入箱子(物品属性 物品)
 	{
@@ -66,6 +68,7 @@ public void 重置()
 
 <h2 id="enum 标签">public enum 标签</h2>
 通过代码补全功能，输入**global**并选择标签。
+
 ~~~ c#
 //可使用以下模板来设定标签
 base.标签 = new System.Collections.Generic.List<标签>
@@ -77,6 +80,7 @@ base.标签 = new System.Collections.Generic.List<标签>
 ~~~
 
 <h2 id="委托与事件">委托与事件</h2>
+
 ~~~ c#
 public static event 拍卖行.委托_结算完毕 事件_结算完毕;
 public delegate void 委托_结算完毕(long 利润, long 拍价);
