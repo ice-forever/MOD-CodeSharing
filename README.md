@@ -67,6 +67,7 @@ public void 重置()
 ~~~
 
 <h2 id="enum标签">public enum 标签</h2>
+
 通过代码补全功能，输入**global**并选择标签。
 
 ~~~ c#
