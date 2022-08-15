@@ -6,7 +6,7 @@
 
 
 实例代码：
-* [enum 标签](#enum 标签)
+* [enum 标签](#enum标签)
 * [委托与事件](#委托与事件)
 
 <h2 id="物品属性">物品属性</h2>
@@ -66,7 +66,7 @@ public void 重置()
 }
 ~~~
 
-<h2 id="enum 标签">public enum 标签</h2>
+<h2 id="enum标签">public enum 标签</h2>
 通过代码补全功能，输入**global**并选择标签。
 
 ~~~ c#
