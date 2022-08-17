@@ -13,6 +13,7 @@ namespace 成就MOD手滑玩家
             base.版本 = "Github分享版";
             base.作者 = "失去我的我";
         }
+        public 本项目仓库地址="https://github.com/ice-forever/MOD-CodeSharing";
     }
     /*
      * 本MOD代码实现需要对Assembly-CSharp.dll文件进行反编译修改
