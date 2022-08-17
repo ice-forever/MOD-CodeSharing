@@ -13,7 +13,7 @@ namespace 成就MOD一个小目标
             base.版本 = "Github分享版";
             base.作者 = "失去我的我";
         }
-        public 本项目仓库地址="https://github.com/ice-forever/MOD-CodeSharing";
+        public string 本项目仓库地址="https://github.com/ice-forever/MOD-CodeSharing";
     }
     /*
      * 该段代码参照原版成就：小有成就修改而来。将原版的一百万修改为了一亿
