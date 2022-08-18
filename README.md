@@ -9,6 +9,8 @@ NET4.0似乎也能生效
 * [物品属性](#物品属性)
 * [箱子属性](#箱子属性)
 
+[代码功能](#功能函数)：
+* [成就相关信息的获取](#成就相关信息的获取)
 
 实例代码：
 * [enum 标签](#enum标签)
@@ -70,6 +72,21 @@ public void 重置()
 	Object.Destroy(base.transform.Find("父物体").gameObject);
 }
 ~~~
+<h2 id="功能函数">功能函数</h2>
+
+<h3 id="成就相关信息的获取">成就相关信息的获取</h3>
+~~~ c#
+public static Dictionary<string, 成就基础> 成就列表_名称 = new Dictionary<string, 成就基础>();
+
+成就基础 temp = 成就系统.成就列表_名称[成就];
+//成就为传入的string；temp变量为获取到的成就信息
+成就系统.是否已解锁成就(user.UID,temp.成就ID);
+//基于UID判断玩家是否有该成就的函数
+
+
+
+~~~
+
 
 <h2 id="enum标签">public enum 标签</h2>
 
@@ -79,9 +96,25 @@ public void 重置()
 //可使用以下模板来设定标签
 base.标签 = new System.Collections.Generic.List<标签>
 {
-	global::标签.军火,
-	global::标签.枪械,
-	global::标签.武器
+	global::标签.食物,
+    global::标签.超市,
+    global::标签.普通的,
+    global::标签.石头,
+    global::标签.矿石,
+    global::标签.办公楼,
+    global::标签.书,
+    global::标签.运动器材,
+    global::标签.电子设备,
+    global::标签.家庭,
+    global::标签.工具,
+    global::标签.水果,
+    global::标签.武器,
+    global::标签.军火,
+    global::标签.奢侈品,
+    global::标签.宝物,
+    global::标签.共鸣,
+    global::标签.枪械,
+    global::标签.古董
 };
 ~~~
 
