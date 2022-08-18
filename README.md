@@ -3,6 +3,9 @@
 项目框架选择netcoreapp3.1  
 NET4.0似乎也能生效
 
+另外，游戏数据修改器的源代码已经公开，希望能有dalao能够参与进来并共同维护和增加新功能。  
+[DataModifier4BlindBoxAuction: 为弹幕游戏————盲盒拍卖会设计和开发的游戏数据修改器](https://github.com/ice-forever/DataModifier4BlindBoxAuction)
+
 <h1>在此提供反编译速查信息</h1>  
 
 常用类的反编译结果：  
