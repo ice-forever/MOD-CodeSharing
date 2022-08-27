@@ -75,19 +75,18 @@ public void 重置()
 	Object.Destroy(base.transform.Find("父物体").gameObject);
 }
 ~~~
+
 <h2 id="功能函数">功能函数</h2>
 
 <h3 id="成就相关信息的获取">成就相关信息的获取</h3>
+
 ~~~ c#
 public static Dictionary<string, 成就基础> 成就列表_名称 = new Dictionary<string, 成就基础>();
-
+//上面的是数据结构
 成就基础 temp = 成就系统.成就列表_名称[成就];
 //成就为传入的string；temp变量为获取到的成就信息
 成就系统.是否已解锁成就(user.UID,temp.成就ID);
 //基于UID判断玩家是否有该成就的函数
-
-
-
 ~~~
 
 
